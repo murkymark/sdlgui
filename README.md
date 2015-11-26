@@ -9,9 +9,9 @@ Project modules:
 
 
 Notes:
-  - UNICODE or FONT module can be used without GUI
+  - UNICODE, FONT, UNISURFACE don't depend on GUI (just copy the specific module src files and include to your project)
   - OpenGL dependency can be removed via preproc. macro
   - Event handling via widget bound callback functions, also supports binding of callback methods
   - Avoids freezing issue on Windows (when moving or resizing the window) via extra thread
   - Support for OS dependent features (drag & drop, file dialog)
-  - libSDL 1.2.x is available for much more systems, so no SDL2 support (SDL2 is not "Simple"!)
+  - libSDL 1.2.x is available for much more systems, so no SDL2 support yet (SDL2 is not "Simple" anymore and will never be ported to that many platforms.)
